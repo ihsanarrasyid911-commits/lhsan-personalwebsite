@@ -1,0 +1,127 @@
+.background-mygoals-1 {
+  background-color: #CADBC8;
+}
+
+.mygoals-title {
+  text-align: center;
+  border: 10px groove white;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  box-shadow: 6px 6px 6px green;
+  font-family: "Times new roman", serif;
+}  
+
+.photo-container img{
+  object-fit: cover;
+  height:300px;
+  width: 31%;
+  margin: 5px;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: left;
+  margin: 20px auto;
+  max-width: 900px;
+
+}
+
+.photo-1{
+  border: 15px groove white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px green;
+}
+
+.photo-2 {
+  border: 15px groove white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px green;
+}
+
+.photo-3 {
+  border: 15px groove white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px green;
+}
+
+.okee-7 {
+  text-align: center;  
+  border: 8px groove white;
+  background-color: #E0F8E0;  
+  font-weight: bold;
+  color: black;
+  box-shadow: 5px 5px 5px green ;
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.purpose-list {
+   text-align: left;
+   text-shadow: 3px 2px 3px green;
+   font-family: "Times New Roman", Times, serif;
+   }
+
+.list-1 {
+  text-align: left;
+  text-decoration: underline green wavy 2px;
+  font-style: oblique;
+}
+
+.operator-goals-1 {
+  border: 10px groove white;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  color: green;
+  text-decoration: none;
+  padding: 7px;
+  
+}
+
+.operator-goals-2 {
+  border: 10px groove white;
+  text-align: left;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 7px;
+  background-color: white;
+  color: green;
+  
+}
+
+.operator-goals-3 {
+  border: 10px groove white;
+  text-decoration: none;
+  tetx-align: left;
+  background-color: white;
+  border-radius: 15px;
+  padding: 7px;
+  color: green;
+}
+
+@media (max-width: 600px) {
+  .photo-container img {
+    width: 28%;
+    height: 180px;
+    margin: 2px;
+  }
+}
+
+.operator-goals {
+  text-align: left; 
+  margin-left: 40px ;
+  margin-bottom: 40px; 
+  margin-top: 40px; 
+}
+
+@media (max-width: 600px) {
+  .operator-goals {
+    font-size: 30%;
+    
+  }
+}
